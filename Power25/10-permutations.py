@@ -7,7 +7,7 @@ class Solution:
         
     
     def backtrack(self, arr, currPerm, res):
-        if not len(arr) and sum(arr) == k:
+        if not len(arr):
             res.append(currPerm)
         
         else:
